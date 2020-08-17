@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+img {
+  opacity: 0;
+}
+</style>
+    <meta charset="utf-8">
+    <title>Hello Admin!</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles/admin.css')}}">
+  </head>
+  <body>
+    <a id="action" href="{{url_for("QR_Code")}}"> <b>Generate a new QR Code</b></a>
+  </body>
+</html>
